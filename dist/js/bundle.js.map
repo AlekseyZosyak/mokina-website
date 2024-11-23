@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":";;;;;;AACA;;AAEA,iD","sources":["webpack://mokina/./src/js/script.js"],"sourcesContent":["\nconst pages = document.querySelectorAll('a[data-page]');\n\npages.forEach(item => item.classList.add('red'));"],"names":[],"sourceRoot":""}
