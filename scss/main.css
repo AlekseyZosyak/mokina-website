@@ -57,10 +57,10 @@ li {
 .logo {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 .logo__img {
-  width: 400px;
+  width: 250px;
 }
 
 .baner {
@@ -106,4 +106,28 @@ li {
 .footer {
   height: 300px;
   background-color: rgba(227, 219, 211, 0.3);
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.price .price-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  padding: 10px;
+  align-items: center;
+  outline: 1px solid green;
+  background-color: rgba(227, 219, 211, 0.3);
+}
+.price .price-card__list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  gap: 5px;
+}
+.price .price-card__img {
+  width: 400px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,31 @@
+.price {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    .price-card {
+
+        display: flex;
+        flex-direction: column;
+        max-width: 420px;
+        padding: 10px;
+        align-items: center;
+        outline: 1px solid green;
+        background-color: rgba(227, 219, 211, 0.3);
+
+        &__list {
+            display: flex;
+            
+            flex-direction: column;
+           
+            margin-left: 20px;
+            gap: 5px;
+           
+        }
+
+        &__img {
+            width: 400px;
+        }
+    }
+}
+
